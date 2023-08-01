@@ -11,6 +11,8 @@
   </head>
   <body>
 
+
+
     <!-- ------------------------------------------------------------------------------------------------ -->
     <!-- Nav Bar -->
 
@@ -18,11 +20,13 @@
       <div class="container">
         
         <!-- Logo -->
+
         <a class="navbar-brand" href="#">
           <img src="assets/Logo.svg" alt="Logo" height="32">
         </a>
 
-        <!-- Nav Items -->
+        <!-- Nav Item -->
+
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -38,8 +42,11 @@
       </div>
     </nav>
 
+
+
     <!-- ------------------------------------------------------------------------------------------------ -->
     <!-- Carousel -->
+
 
     <div id="carouselExample" class="carousel carousel-dark slide">
       <div class="carousel-inner">
@@ -60,10 +67,26 @@
 
         <!-- Slide 2 -->
         <div class="carousel-item full-height">
-          <p>Slide 2</p>
+          <div class="container">
+            <div class="row full-height">
+              <div class="col above-text">
+                <h1>Shop online and explore the beautiful flora of our very own South Africa</h1>
+                <br>
+                <hr class="line">
+              </div>
+
+              <div class="col align-self-end">
+                <img src="assets/other.png" class="hero-image small" id="hero-image">
+              </div>
+              
+            </div>
+          </div>
         </div>
 
       </div>
+
+
+
 
       <!-- Carousel Controls -->
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -76,7 +99,71 @@
       </button>
     </div>
 
+
+
+
+
+    <!-- Accordion stuff -->
+
+    <header>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h2>Indigenous Plants</h2>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus exercitationem cumque earum, non aut sit laudantium, adipisci impedit magni eius aperiam dolor eum dicta iste pariatur blanditiis id harum veritatis!</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h2>Interior Decor Plants</h2>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sunt labore repudiandae maiores molestiae et culpa cupiditate vel quae quo laborum? Cupiditate magni quia, tempore earum officia rerum est fugiat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h2>Shrubs & Roses</h2>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita magni quas aspernatur sint, voluptatem facere eum est doloribus commodi quo itaque quia molestiae praesentium, nemo beatae laborum dolor ab.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Div Image -->
+      <div class="">
+          <img src="assets/pngegg (14).png" class="image-accordion">
+      </div>
+
+
+    </header>
+
+
+
+
+
+
+
+
     <!-- Javascript -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>

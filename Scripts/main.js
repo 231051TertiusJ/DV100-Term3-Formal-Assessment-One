@@ -6,7 +6,7 @@ const plants = [
     {
       "name": "Fikus Tree",
       "price": 350,
-      "description": "Graceful and lush, this charming indoor plant boasts glossy, emerald-green leaves that effortlessly brighten any space.",
+      "description": "Graceful and lush, this charming indoor plant boasts glossy, emerald-green leaves that effortlessly brighten any space. Easy to care for and standing at an ideal height, our Ficus Tree is the perfect addition to elevate your interior décor.",
       "image": "plant1.png"
     },
     {
@@ -34,6 +34,8 @@ const plants = [
       "image": "plant5.png"
     }
   ];
+
+
   
   // ----------------------------------------------------------------
   // When the document loads
@@ -55,6 +57,8 @@ const plants = [
       loadPlants();
   
   }); 
+
+
   
   // ----------------------------------------------------------------
   // Load all plants
@@ -85,6 +89,7 @@ const plants = [
   
       }
   }
+
   
   // ----------------------------------------------------------------
   // When the plant card is clicked
