@@ -105,3 +105,22 @@ const plants = [
     $(this).find(".card-img-top").toggleClass("small");
   
   });
+
+
+  // ----------------------------------------------------------------
+  // When remove icon is clicked
+  // ----------------------------------------------------------------
+
+  $(document).on('click', ".delete", function(){
+    $(this).parents("tr").remove();
+    $(".add-new").removeAttr("disabled");
+  })
+
+
+  // ----------------------------------------------------------------
+  // Notes
+  // ----------------------------------------------------------------
+
+  // .element selects class
+  // (no dot)element selects tag
+  // #element selects id
