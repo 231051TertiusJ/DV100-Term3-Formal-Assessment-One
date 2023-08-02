@@ -38,17 +38,17 @@ const plants = [
 
   
   // ----------------------------------------------------------------
-  // When the document loads
+  // When loads
   // ----------------------------------------------------------------
   
   $(document).ready(function(){
   
-      console.log("Hello");
+      console.log("Hello world");
   
       // -----------------------------------------
       // Home Page
   
-      // When the document loads, animate the hero image upwards
+      // When loads, animate the hero image
       $(".hero-image").animate({top: '-=100px'});
   
       // -----------------------------------------
@@ -92,7 +92,7 @@ const plants = [
 
   
   // ----------------------------------------------------------------
-  // When the plant card is clicked
+  // When the card is clicked
   // ----------------------------------------------------------------
   
   $("#plantsContainer").on('click', '.card', function(){

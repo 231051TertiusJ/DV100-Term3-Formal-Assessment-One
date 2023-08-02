@@ -174,3 +174,34 @@ button.accordion-button {
     margin-top: -340px;
     
 }
+
+/* Assessment Table overrides */
+
+.table {
+    margin-top: 20vh;
+}
+
+td {
+    padding: 100px;
+}
+
+.center {
+    text-align: center;
+    margin-left: -490px;
+}
+
+.remove-icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-image: url("../assets/remove-itempng.png");
+    background-position: center;
+    background-size: cover;
+}
+.remove-icon:hover {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-image: url("../assets/remove-itempngHOVER.png");
+    border: black 2px;
+}
