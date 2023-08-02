@@ -55,6 +55,11 @@ const plants = [
       // Browse Page
   
       loadPlants();
+
+      // -----------------------------------------
+      // Wishlist Page
+
+      $(".table").animate({right: '-=100px'});
   
   }); 
 
@@ -117,6 +122,11 @@ const plants = [
   })
 
 
+
+
+  
+
+
   // ----------------------------------------------------------------
   // Notes
   // ----------------------------------------------------------------
@@ -124,3 +134,10 @@ const plants = [
   // .element selects class
   // (no dot)element selects tag
   // #element selects id
+  // const = can't change info
+  // let = variable 
+
+  // for loops-
+  // i = 0 creating a new variable and setting to 0
+  // i < arrayPlants.length  tells for loop how many times to run (i < 5)(is question) check how many times it has run up to the i++
+  // i++ its shorthand for i = + 1; ,,,1 (5<5) stop running

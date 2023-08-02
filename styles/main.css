@@ -3,10 +3,6 @@
 /* ---------------------------------------- */
 /* Global Styles */
 
-html {
-    
-}
-
 /* Fonts */
 
 h1,h2,h3,h4,h5,h6 {
@@ -175,6 +171,7 @@ button.accordion-button {
     
 }
 
+/* ---------------------------------------------------------------- */
 /* Assessment Table overrides */
 
 .table {
@@ -183,11 +180,13 @@ button.accordion-button {
 
 td {
     padding: 100px;
+    background-color: #fff;
+    color: black;
 }
 
 .center {
     text-align: center;
-    margin-left: -490px;
+    margin-left: -450px;
 }
 
 .remove-icon {
@@ -199,9 +198,18 @@ td {
     background-size: cover;
 }
 .remove-icon:hover {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     background-image: url("../assets/remove-itempngHOVER.png");
     border: black 2px;
+}
+
+th {
+    background-color: #18382B; 
+    color: #FFF; 
+}
+
+.table>:not(caption)>*>* {
+    
 }
