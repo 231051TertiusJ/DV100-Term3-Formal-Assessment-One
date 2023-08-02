@@ -75,7 +75,7 @@ const plants = [
         // 1: Select plants container and add the current array plant to it
         $("#plantsContainer").append($("#plantCardTemplate").html());
   
-        // 2: Create a varible that contains the most recently added plant card
+        // 2: Create a variable that contains the most recently added plant card
         let currentChild = $("#plantsContainer").children().eq(i+1);
   
         // 3: Set the content for the plant card from the plants list
